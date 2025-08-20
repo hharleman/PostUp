@@ -33,6 +33,9 @@ export const Navbar = () => {
         )}
       >
         <li>
+          <Link href="/blog">{t('blog')}</Link>
+        </li>
+        <li>
           <Link href="/#pricing">Pricing</Link>
         </li>
       </CenteredMenu>

@@ -8,7 +8,9 @@ import { Section } from '@/features/landing/Section';
 export const Hero = () => {
   const t = useTranslations('Hero');
   const title = t.rich('title', {
-    important: chunks => <span className="text-primary">{chunks}</span>,
+    important: chunks => (
+      <span className="font-bold !text-primary">{chunks}</span>
+    ),
   });
 
   return (
